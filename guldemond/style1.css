@@ -1,0 +1,1499 @@
+a{
+  color:black}
+.logo1img2{width: 100%}
+footer tr td:nth-child(1){
+  text-align: right;
+  padding-right:1em;
+}
+.intop{
+  text-align: left;
+}
+.knop a{
+  text-decoration: none;
+}
+.prijsfix{
+  position: fixed;
+    top: 200px;
+    z-index: -999999;
+}
+figure {
+      text-align: center;
+}
+.catitx{
+  display: none;
+}
+.slideFig{
+    width:40vw;
+    margin-left: 4em;
+}
+.intro figure img{
+  width: 100%;
+}
+.intro figure{
+  width:30vw;
+}
+/*
+.intro{
+  column-count: 2;
+}
+.intro p{
+  break-inside: avoid;
+}
+*/
+span.ttal {
+    display: inline;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+.tz h1 div{
+  height: 70vh;
+    width: 100%;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    margin-top: calc(-0.83em - 32px);
+    margin-bottom: calc(-0.83em - 18px);
+}
+.mess{
+  text-align: center;
+    font-size: 1.2em;
+    border-top: 0;
+    color: #add2b1;
+}
+.gul{
+  left: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+}
+.prz{
+  transform:scale(2);
+  margin: 3em
+}
+.prz p{
+  display: inline;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+.prz span{
+  vertical-align: super;
+      font-size: 0.7em;
+ }
+
+.navvi{
+  justify-content: center;
+bottom: 0;
+width: 100%;
+display: flex;
+border-bottom: 3px solid #add2b1;
+}
+.navvi ol{
+  list-style: none;
+padding: 0;
+text-transform: uppercase;
+
+}
+.navvi ol li:nth-child(1){
+  display: none;
+}
+.navvi li{float: left;
+margin:1em;}
+.navvi a{
+  text-decoration: none;
+}
+.wp-block-button ~ p{
+  clear: both;
+  float: none;
+}
+.wp-block-button{
+  margin:3em;
+  float:left;
+}
+.wp-block-button a{
+  padding:1em;
+text-decoration: none;
+color:black;
+}
+.kies-frame-knop, a.bestelconfknop{
+  align-content: center;
+    display: flex;
+  text-decoration: none;
+    color: black;
+}
+.zelf-content p:nth-last-child(1) strong{
+  font-size: 3em;
+  line-height: 1em;
+}
+.zelf-content .has-text-color{
+  transform: scale(2.2);
+}
+.zelf-content .has-text-color:nth-child(3){
+  transform: scale(2.0);
+}
+footer .ztr table{
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  -webkit-column-break-inside:avoid;
+  -moz-column-break-inside:avoid;
+  -o-column-break-inside:avoid;
+  -ms-column-break-inside:avoid;
+  column-break-inside:avoid;
+  -webkit-column-break-after: always;
+	break-after: column;
+}
+footer .ztr table:nth-last-child(1){
+  -webkit-column-break-after:auto;
+  break-after: column: auto;
+}
+footer .gul-helper{
+  padding:5px;
+}
+footer .ztr{
+  height: 50vw;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  column-count: 3;
+  column-gap: 3em;
+  column-rule: 3px solid  #add2b1;
+}
+button.slick-prev:before, button.slick-next:before{
+  color: #add2b1;
+}
+footer .ztr p{
+  padding-top: 1.5em;
+
+}
+footer figure{
+    padding-top: 1.5em;
+}
+footer img{
+
+  width: 100%;
+}
+.gul-helper{
+  padding: 2em 5px 5px 5px;
+    position: relative;
+}
+.tbl{
+  border-top:3px solid  #add2b1;
+  position: relative;
+  padding-left: 1.5em;
+    padding-right: 1.5em;
+    column-count: 2;
+    column-rule: 3px solid #add2b1;
+    column-gap: 3em;
+}
+.tz table strong{
+  letter-spacing: 0.1em;
+    font-size: 1.2em;
+}
+.tz table{
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  overflow: hidden;
+}
+.tz table tr td:nth-child(1):after { content: '';
+  position: absolute;
+  bottom: .4rem;
+  width: 100%;
+  height: 0;
+  line-height: 0;
+  border-bottom: 2px dotted #ddd;
+}
+.tz table tr:nth-child(1) td:after{ content: ""; display: none}
+.tz table tr td:nth-child(1){
+  position: relative;
+  overflow: hidden;
+  width:100%;
+}
+.tz table tr td:nth-child(2){
+  text-align: right;
+  vertical-align: bottom;
+}
+table{
+  width: 100%;
+  -webkit-column-break-inside:avoid;
+  -moz-column-break-inside:avoid;
+  -o-column-break-inside:avoid;
+  -ms-column-break-inside:avoid;
+  column-break-inside:avoid;
+
+}
+footer{
+}
+.laad-meer{
+  display: none;
+}
+
+.landing .logo1img{width:100%}
+.logo1 div{
+  width:40vw;
+}
+ .logo2 div{
+   width:20vw;
+   max-width: 240px;
+ }
+
+  .logo1{
+    vertical-align: middle;
+  margin-top:3em;
+    display: flex;
+    justify-content: center;
+  }
+  .logotje1{
+    display: block;
+
+    margin: auto 0;
+    display: block;
+    /* width: 20px; */
+    /* height: 20px; */
+    /* background: red; */
+    margin-right: 9vw;
+  }
+  .logotje1 img{
+    width: 7vw;
+    height: 7vw;
+  }
+  #kies-onderdelen .left img,   #kies-onderdelen .left svg {
+        width: 55vw;
+      position: fixed;
+      top:100px;
+      z-index: -9999;
+  }
+  #kies-onderdelen .left svg{
+    height: 38vw;
+  }
+  #kies-onderdelen .frame {
+      position: relative;
+      text-align: unset;
+  }
+  .logotje2{
+    margin: auto 0;
+    display: block;
+
+    margin-left: 9vw;
+
+    /* background: red; */
+    /* padding-top: 50vw; */
+  }
+    .logotje1 p{
+      color: #afd3b0;
+  font-weight: 900;
+  position: absolute;
+  width: 15vw;
+  /* background: red; */
+  margin-left: -4vw;
+  text-align: center;
+    }
+ .logotje2 p{
+        color: #afd3b0;
+    font-weight: 900;
+    position: absolute;
+    width: 15vw;
+    /* background: red; */
+    margin-left: -3vw;
+    text-align: center;
+  }
+  .logotje2 img{
+    width: 9vw;
+  height: 6.5vw;
+  }
+  .logo2{
+    margin: 0;
+    transition: top 1s;
+    display: flex;
+    justify-content: center;
+    /* margin-top: -23vw; */
+    margin-bottom: 0;
+    /* background: #f7f5f1; */
+  }
+  .header {
+position: fixed;
+  }
+
+  /* Page content */
+  .content2 {
+    padding: 16px;
+  }
+
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    background: #f7f5f1;
+      z-index: 9999999;
+      padding: 1em 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      margin-top: 0;
+      border-bottom: 2px solid #add2b1;
+      left:0;
+  }
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content2 {
+    padding-top: 102px;
+  }
+
+.burger{
+  left: 4em;
+position: absolute;
+ width: 3vw;
+top: 2em;
+display: none;
+max-width: 37px;
+}
+nav{
+  transition: top 1s;
+  z-index:9999999;
+  width: 100vw;
+background: #f7f5f1;
+position: fixed;
+top: 0;
+left: 0;
+text-align: center;
+display: none;
+}
+    nav ol{
+      padding: 0;
+list-style: none;
+    }
+
+    nav a{
+      color:black;
+      text-decoration: none;
+    }
+    .nav-btn{
+      transition:transform 1s;
+      border-radius:0 25px 25px 0px;
+      position:absolute;
+      width:50px;
+      height:50px;
+      background:black;
+      left:calc(80vw - 25px);
+      top:50vh;
+    }
+    .mn{
+      text-transform:uppercase;
+      height:100%;
+    padding: 0px 20px 0px 20px;
+    }
+    .nav-btn:hover{
+      transform:scale(1.4)
+    }
+    .barwrap{
+      padding:15px;
+    }
+    .bar{
+      margin:3px;
+      height:3px;
+    width:16px;
+    background:white;
+    }
+    #menu-btn:hover  .bar{
+      background: white;
+    }
+    #menu-chek{display:none}
+    #menu-chek:checked ~ nav{
+      left:0;
+    }
+
+
+article img{
+  width:100%;
+}
+
+.main{
+scroll-behavior: smooth;
+ overflow-x:hidden;
+ scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100%;
+ /*
+  width:100vw;
+  height:100%;
+padding: 0 2em; */
+}
+section{
+  height: auto;
+
+}
+@font-face{
+  font-family:Brandon Grotesque;
+  src:url("font/brandon/brandon3.woff")
+}
+html{
+  position: inherit;
+  display: block;
+    position: static;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  padding:0;
+  margin:0;
+}
+body{
+  display: block;
+    position: static;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-X: hidden;
+padding: 0;
+margin: 0;
+font-family: Brandon Grotesque;
+background: #f7f5f1;
+}
+h1{
+  text-transform: uppercase;
+  font-weight:900;
+  text-align:center;
+  font-size:3em
+}
+h2 ~ p{
+  margin-top:0;
+}
+h2{
+  display: inline-block;
+  text-transform: uppercase;
+ margin-bottom:0;
+}
+hr{
+  display: none;
+  margin-top:2em;
+  border-color:#add2b1;
+/*  border-color:; */
+  border-style:solid;
+  margin-left:2em;
+  margin-right:2em;
+  margin-bottom:0;
+}
+.nav{
+  text-align:center;
+  width:80vw;
+  margin-left:calc(50% - 30vw);
+  margin-bottom:4em;
+}
+.nav ul{
+  padding:0;
+  list-style:none;
+}
+.nav li{
+  float:left;
+}
+.nav a{
+  background:#add2b1;
+  color:black;
+  text-decoration: none;
+  padding:1em;
+  white-space: nowrap;
+}
+.nav a:hover{
+  background:white;
+  border-bottom:2px solid #add2b1;
+}
+.logo{
+  text-align:center;
+
+
+}
+.logo img{
+  height:20vh;
+}
+.colum-text{
+
+  column-width: 200px;
+  column-count: 2;
+  column-gap: 1em;
+}
+.text-big{
+  line-height:1em;
+  font-size:3em;
+}
+.text-bold{
+  font-weight:900;
+}
+.has-light-green-cyan-color{
+  color:#add2b1;
+}
+.text-medium{
+  line-height:1em;
+  font-size:2em;
+}
+.text-a-left{
+  margin-left:4em;
+  text-align:left;
+  margin-right:5em;
+}
+.text-ondertitel{
+  text-align: center;
+  margin-top:-2em;
+  max-width:500px;
+  margin-left:calc(50% - 250px)
+}
+.com-befor{
+  position: absolute;
+    transform: rotate(180deg);
+    left: 25%;
+    top:1.5em;
+}
+.com-after{
+position: absolute;
+top:0.8em;
+left:72%;
+}
+.btn, input[type=submit]{
+  border-width: 0;
+  border-radius: 1em;
+cursor: pointer;
+padding: 1em;
+background: #add2b1;
+display: table-cell;
+white-space: nowrap;
+/* border-right: 1em solid #f7f5f1ff; */
+text-align: center;
+
+}
+
+#overzicht{display: none}
+select{
+  background-color: #f7f5f1ff;
+  padding:0.5em;
+  border:1px solid black;
+  font-family: Brandon Grotesque;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.mega-banner{
+  border-bottom: 2px solid black;
+    border-top: 2px solid black;
+  background-image: url('img/fiets.jpg');
+  width:calc(100vw - 1em);
+  height: 30vw;
+  margin-left:-1em;
+  margin-top:2em;
+  margin-bottom: 2em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* .btn:hover{
+  background:white;
+  border-bottom:2px solid #add2b1;
+  border-top:2px solid #add2b1;
+ padding-top:calc(1em - 2px);
+padding-bottom :calc(1em - 2px);
+} */
+.content{
+padding: 1em 4em;
+  border-bottom:2px solid #add2b1;
+      background-color: #f7f5f1;
+
+  }
+  .windows img{
+  width:3vw;
+  position: absolute;
+    right: 3em;
+    bottom: 3em;
+  }
+.wrap{
+  display:table;
+}
+.frame {
+  vertical-align: middle;
+margin:0 1em;
+  display:inline-block;
+    width:  100%;
+    text-align: center;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+.left{
+  display: table-cell;
+    width: calc(50vw - 1em);
+    margin-right: 0;
+}
+.left img, .right img, .left svg{
+  vertical-align: middle;
+  width:80%;
+      height: auto;
+}
+.right{
+  display: table-cell;
+position: relative;
+width:calc(50vw - 1em);
+}
+.g-rapper{
+column-count: 3;
+  overflow:hidden;
+height: auto;
+}
+.g-rapper ol{
+  width:100%;
+  list-style-type: none;
+  padding:0;
+  margin:0;
+}
+.g-rapper li{
+  break-inside: avoid;
+  transition: width 0.5s, height 0.5s;
+  cursor:pointer;
+
+  overflow: hidden;
+  border:1px solid black;
+
+}
+.g-text{
+  margin-top:5vw;
+}
+.noclickT{
+
+  height:calc(40vw * 0.75);
+
+margin-bottom:1em;
+}
+.clickT{
+  margin-left: -0.5em;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: auto;
+      width: 100vw;
+      /* width: calc(100% - 10em - 2px); */
+      background-color: white;
+      z-index: 9000;
+}
+.clickT .g-item{
+  float: left;
+width: 60vw;
+height: 100vh;
+
+}
+.clickT .g-text, .clickT .btn{
+  display: inline;
+}
+.clickT .g-onder {
+  width: 36vw;
+  float: left;
+  height: 100vh;
+  padding-left: 1.5em;
+}
+.windows{
+column-count: 3;
+    column-gap: 2px;
+    border-bottom: 2px solid #add2b1;
+    column-rule: 2px solid #add2b1;
+  }
+  .windows div{
+    position: relative;
+    width:100%;
+    height: 25vw;
+
+      background-size: cover;
+      background-position: center;
+  }
+  .windows span{
+    transition: opacity 0.5s;
+    background-color: black;
+    opacity: 0;
+    width:100%;
+    height:100%;
+    display: block;
+  }
+    .windows span:hover{
+      opacity: 0.5;
+
+    }
+  .windows strong{
+    top: 0;
+    background: wheat;
+    padding: 2em;
+    position: absolute;
+  }
+.g-item{
+  pointer-events: none;
+
+  position: relative;
+  z-index: 1;
+    transition: height 0.5s;
+height:calc(47vw * 0.5);
+background-image:url('img/fietsfoto.jpg');
+background-size:cover;
+background-position:center;
+
+}
+.g-onder{
+  padding:1em;
+}
+.price{
+  font-weight:900;
+    font-size:3vw;
+   float:right;
+}
+.price p{
+  display: contents;
+}
+.vanaf{
+position:absolute;
+left:20%;
+}
+.knop a{
+  text-decoration: none;
+}
+.knop{
+  transition: box-shadow 1s;
+box-shadow:  3px 4px 9px 0px #888888;
+
+
+
+  border: 3px solid black;
+  display: inline-block;
+
+margin: 2px auto;
+  white-space: nowrap;
+  cursor:pointer;
+  padding:1em;
+text-align: center;
+
+background:#add2b1;
+border-radius: 1em;
+margin-bottom: 3em;
+}
+input[type=text], input[type=email], textarea{
+  border: 1px solid black;
+    padding: 0.3em;
+}
+.knop:hover, input[type=submit]:hover, .btn:hover {
+  box-shadow: 11px 13px 9px 3px #888888;
+  background:white;
+  border:3px solid #add2b1;
+}
+footer{
+  margin-bottom: -50px;
+  overflow: hidden;
+}
+/* kies een kleur */
+.kleur{
+  position: relative;
+  text-align: left;
+  margin: 5em;
+  height: 5em;
+  margin-top:0;
+}
+.kleur p:nth-child(2){
+  margin-left: 100px;
+  margin-top:0;
+}
+.kleur h2{
+  padding-top: 0.4em;
+    margin-left: 100px;
+    margin-bottom: 0;
+
+}
+.frame .kleur:nth-child(2n) h2{
+  text-align: right;
+  margin-left: 0px;
+  margin-right: 100px;
+
+
+}
+.frame .kleur:nth-child(2n) p:nth-child(2){
+  text-align: right;
+  margin-left: 0px;
+  margin-right: 100px;
+}
+.frame .kleur:nth-child(2n) p:nth-last-child(1){
+  float:right;
+}
+.kleur p:nth-last-child(1){
+  top: 0;
+  cursor: pointer;
+      padding: 0!important;
+      display: flex;
+      transition: transform 0.5s;
+      width: 3em;
+      height: 3em;
+      border-radius: 1.5em;
+      transform: scale(2.0);
+      margin-left: 0;
+      justify-content: center;
+      line-height: 3em;
+      margin-top: -4em;
+}
+
+.kleur .cirkel:hover{
+  transform: scale(1.5);
+
+}
+.lichtgroen div{
+  background: #bfdec2;
+}
+.zwart div{
+  background: black;
+}
+.donkergroen div{
+  background: darkgreen;
+}
+.eigenkleur div{
+  background: white;
+  text-align: center;
+  line-height: 3em;
+}
+.eigenkleur .select{
+  width:auto;
+float:left;
+}
+.kleur .selected{
+  border:4px solid #add2b1;
+  width:calc(3em - 8px);
+  height:calc(3em - 8px)
+}
+.kleur span{
+  color:black;
+  float:right;
+  margin-right: 4em;
+  display:block;
+  clear: left;
+
+}
+.left .kleur:nth-child(1){
+  padding-top: 8em;
+}
+.after-content{
+margin-bottom: 3em;
+}
+#bestel .frame {
+    text-align: left;
+    width: 80%;
+}
+section#kies-ral p {
+    display: none;
+}
+#kies-ral tbody{
+
+  margin:0;
+padding:0;
+  width:100%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+overflow: hidden;
+grid-auto-rows: 20vw;
+}
+#kies-ral tr{
+  background-color: #f7f5f1;
+ overflow: hidden;
+
+ position: relative;
+}
+#kies-ral tr:hover{
+  border:2px solid black;
+}
+#kies-ral tr  td:nth-child(2){
+    display:none;
+  }
+#kies-ral   tr  td:nth-child(1){
+      font-size:3vw;
+    }
+#kies-ral    tr  td:nth-child(3){
+        width:20vw;
+        height:20vw;
+        display: inline-block;
+        cursor: pointer;
+
+      }
+#kies-ral    tr  td:nth-child(4){
+      display:none;
+      }
+/* kies een frame*/
+
+.fiets-frames{
+  display: inline-block;
+/*  height:500px;  */
+  overflow-X: hidden;
+  overflow-y: hidden;
+ position: relative;
+}
+.achter-uit{
+  display: none;
+  cursor: pointer;
+  pointer-events: fill;
+  z-index: 888;
+  position: absolute;
+  width: 105px;
+  height: 200px;
+      background: url('img/pijl2.png');
+      top: calc(50% - 100px);
+      background-size: cover;
+display: none;
+}
+.voor-uit{
+  display: none;
+  cursor: pointer;
+  pointer-events: fill;
+  z-index: 888;
+    left: calc(100vw - 14em);
+    position: absolute;
+    width: 105px;
+    height: 200px;
+    background: url(img/pijl1.png);
+    top: calc(50% - 100px);
+    background-size: cover;
+}
+.fiets-frames .fiets-ul{
+  padding-left: 0;
+  width:90vw;
+ /* transition: transform 1s ease-in;
+  list-style: none;
+  margin-left: -3em; */
+  list-style: none;
+
+}
+.fiets-frame{
+/*  cursor: pointer;
+  border: 1px solid black;
+    margin: 0.5em;
+
+  width:calc(33.33vw - 3.5em);
+  float: left; */
+}
+.fiets-frame a{
+  text-decoration: none;
+}
+.fiets-frame .in{
+  position: relative;
+  width:100%;
+  height: 100%;
+  border: 1px solid black;
+}
+.fiets-frame .in:hover{
+  background: #add2b1;
+}
+.fiets-frame .fiets-img{
+
+  width: calc(100% - 4em);
+
+}
+.slick-dots{
+}
+.fiets-frame .fiets-text{
+  padding-left:2em;
+  color:black;
+  text-decoration: none;
+}
+.maat{
+  top:calc(50%  - 4em);
+  position:absolute;
+  padding-right: 4.2em;
+  background: #f7f5f1ff;
+transform:scale(0.8)}
+
+/*  selctbox  */
+.onderdelen-img{
+  margin: 5em 2em;
+  float:left;
+  height: 5em;
+  display: none;
+/* width: 15vw; */
+float: left;
+/* transform: scale(2.0) rotate(45deg);
+margin-right: 5em;
+margin-left: 5em; */
+}
+.pris{
+  display: inline-block;
+    margin: 0 1em;
+}
+.onderdelen-wrap{
+  width:calc(100vw - 2em)
+}
+.onderdelen-wrap .styledSelect{
+width:calc(100% - 6em);
+padding-right: 9em;
+}
+.onderdelen-wrap .select {
+width:calc(80% - 24em);
+}
+.powder img{width:100%}
+form{
+  margin-bottom:0;
+}
+.s-hidden {
+   display: none;
+    visibility:hidden;
+    padding-right:10px;
+}
+.select {
+  width:calc(100% - 8em);
+  border-right:1px solid black;
+background: #f7f5f1ff;
+
+    cursor:pointer;
+    display:inline-block;
+    position:relative;
+    font:normal 11px/22px Arial, Sans-Serif;
+    color:black;
+}
+.styledSelect {
+  border:1px solid black;
+    font-size: 1.3em;
+  width:100%;
+   height: fit-content;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color:none;
+padding: 3em 1.3em 3em 3em;
+    font-weight:bold;
+}
+.styledSelect span{
+  font-size:2em;
+}
+.styledSelect:after {
+    content:"";
+    width:0;
+    height:0;
+    border:8px solid transparent;
+    border-color:black transparent transparent transparent;
+    position:absolute;
+    bottom:calc(50% - 16px);
+    right:-40px;
+}
+
+.styledSelect:active, .styledSelect.active {
+    background-color:none;
+}
+.options {
+
+
+    display:none;
+    position:absolute;
+    right:0;
+    left:0;
+    z-index:999;
+    margin:0 0;
+    padding:0 0;
+    list-style:none;
+    border:1px solid #ccc;
+    background-color:white;
+    -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.options li:nth-child(1){
+  display: none;
+}
+.frame .kleur:nth-child(2){
+      text-align: right;
+}
+.options li {
+  font-size:1.3em;
+  font-weight: bold;
+    margin:0 0;
+    padding:3em;
+}
+.styledSelect img{
+  font-size: 2em;
+  float: left;
+  max-height: 3em;
+  margin-right: 1em;
+}
+.options li img{
+  float: left;
+  max-height: 3em;
+  margin-right: 1em;
+      }
+.options li span{
+}
+.options li:hover {
+    background-color:#add2b1;
+    color:black;
+}
+.logo1img{
+  margin-bottom:5em;
+}
+.kleiner{
+  position: relative;
+}
+.kleiner li{
+  float: none;
+}
+.kant-klaar123 .content{
+  border-bottom: 0;
+}
+#kies-onderdelen .right{
+  width: 20vw;
+}
+#kies-onderdelen .left{
+  width: 75vw;
+}
+#kies-onderdelen .content{
+  background-color: rgba(245, 245, 220, 0);
+  }
+
+#kies-onderdelen .right img{
+  max-width: 20vw;
+}
+#kies-onderdelen .right .frame{
+  text-align: left;
+}
+.landing .gul{
+  z-index:-2;
+}
+.landing > .content{
+  background-color: transparent;
+}
+#home{
+  z-index: 9;
+background-color: #f7f5f1;
+}
+.landing{
+  padding: 1em 4em;
+  background-attachment: scroll;
+  position: relative;
+      background-size: cover;
+      height: fit-content;
+      margin-top: -50px;
+      border-bottom: none;
+      /* height: 40vh; */
+    /*  background-color: #add2b1; */
+      background-position: center;
+}
+#svg1{
+  margin-right: 0.2em;
+  width: auto;
+height: 0.6em;
+vertical-align: baseline;
+}
+.g-onder .g-text, .g-onder .btn{
+  display: none;
+}
+.clickT .g-onder .g-text, .clickT .g-onder .btn{
+  display: block;
+}
+.pris{
+  display: none;
+}
+#kies-onderdelen img.cat169{
+  z-index:-9999999;
+}
+@media only screen and (min-width: 2400px)  {
+body{
+  font-size: 2em;
+}
+}
+@media only screen and (min-width: 1200px)  {
+
+  .content{
+    padding-left:5em;
+    padding-right:5em;
+  }
+
+  .left, .right{
+    width:calc(50vw - 6em);
+/*    height:60vh; */
+  }
+  .fiets-frame{
+
+
+    width:calc(33.33vw - 4.5em);
+  }
+}
+
+@media only screen and (max-width: 1050px)  {
+  .logotje1{
+    display: none;
+  }
+  .logotje2{
+    display: none;
+  }
+}
+@media only screen and (max-width: 850px)  {
+  #home{
+    background-color: #f7f5f1;
+z-index: 999999;
+  }
+  #kies-onderdelen .content{
+    column-count: 1
+  }
+  #kies-onderdelen .right .frame{
+
+      }
+  #kies-onderdelen .right {
+    width: 100%;
+        margin-top: 40vh;
+}
+ #kies-onderdelen .left svg {
+   margin-top: -250px;
+     padding-top: 250px;
+     padding-left: 1em;
+     margin-left: -1em;
+     margin-right: -1em;
+     padding-right: 1em;
+  z-index: 9;
+width: calc(100% - 2em);
+  background-color: #f7f5f1;
+}
+#kies-onderdelen .left img{
+  width: 100%;
+  z-index: 9;
+width: calc(100% - 2em);
+}
+  #nav{
+    position: relative;
+  }
+  #nav li{
+    float: none;
+  }
+  .logo1img{
+    margin-bottom:0;
+  }
+  .burger{
+    left: 4em;
+  position: absolute;
+   width: 7vw;
+  top: 2em;
+  display: none;
+  }
+  .logo2 div{
+    width:40vw;
+    max-width: 40vw;
+
+  }
+  body{
+  }
+  section#kies-onderdelen {
+    position: unset;
+}
+  section{
+    height: auto;
+    position: relative;
+z-index: 99999;
+  }
+  h1{
+    font-size: 12vw;
+  }
+  .tz div{
+    column-count: 1;
+  }
+.content{padding: 1em 1em;
+position: relative;
+z-index: 10000}
+.intro{
+  column-count: 1;
+}
+.kleur{margin: 4em 1em;}
+.wrap{
+  display: block;
+}
+.frame{
+  display: table
+}
+.logo img{max-width:80vw;}
+.text-a-left {
+  margin-right: 0;
+  margin-left: 0;
+  }
+  .right{
+    width:100%;
+    position:relative;
+    height:auto;
+    display: inline-block;
+
+  }
+  .left{
+    display: inline-block;
+
+    width:100%;
+    height:auto;
+
+  }
+.right img{
+  width:40vh;
+}
+.g-rapper{
+column-count: 1;
+}
+.g-rapper li{
+
+}
+footer .ztr{
+  column-count: 1;
+  padding:0;
+  height: auto;
+}
+footer .ztr figure{
+  padding-top: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+footer .ztr p{
+  padding-top: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+border-top: 3px solid #add2b1;
+}
+
+footer .ztr table{
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  webkit-column-break-after: auto;
+   break-after: auto;
+}
+.noclickT{
+  width: calc(100% - 2px);
+margin-left:0;
+ height: 80vw;
+}
+.slideFig{
+    width: calc(100vw - 4em - 10px);
+    margin-left: 0em;
+}
+.slick-prev, .slick-next {
+  display: none!important;
+}
+.intro figure{
+  width: calc(100% - 2em);
+  margin-block-start: 0;
+margin-block-end: 0;
+margin-inline-start: 0;
+margin-inline-end: 0;
+}
+
+.g-item{
+  height:calc((140vw - 4em) * 0.5)
+
+}
+.fiets-frame .fiets-img {
+    width: calc(100% );
+}
+.price {
+    font-size: 7vw;
+  }
+#zelfsamen .left,#zelfsamen .right{
+
+}
+#zelfsamen .model{
+}
+#zelfsamen .left img{
+      vertical-align: super;
+  width:40vh;
+
+}
+.left .kleur:nth-child(1){
+  padding-top: 0em;
+}
+
+.onderdelen-img{
+  margin: 1em 1em;
+  }
+.onderdelen-img-wrap{
+  text-align: center;
+}
+.onderdelen-wrap .select {
+  width:calc(100vw - 9em);
+}
+#bestel .frame {
+    text-align: left;
+    width: 100%;
+}
+.fiets-frames{
+  width:100%;
+
+
+}
+#kies-onderdelen .left svg{
+  height: auto;
+}
+.fiets-frames .fiets-ul{
+  padding-left: 0;
+    margin-left: 0;
+  }
+/*  width:900000px;
+margin-left: -2em;
+
+}
+.fiets-frame .fiets-img{
+padding-top:2em;
+padding-bottom: 0;
+}
+.fiets-frame{
+
+
+  width:calc(80vw - 2em);
+/*  height:calc(60vw - 2em); */
+
+
+
+
+.frame{
+  margin:0;
+}
+.maat{
+  transform: scale(0.5)
+}
+.burger {
+    left: 1em;
+    position: absolute;
+    width: 7vw;
+    top: 1.5em;
+  }
+  .voor-uit{
+    display: none;
+    transform: scale(0.5);
+    left: calc(100vw - 7em);
+  }
+  .achter-uit{
+    display: none;
+    transform: scale(0.5);
+    margin-left: -2em;
+  }
+  #svg1 {
+      margin-right: 0.2em;
+      width: auto;
+      height: 0.6em;
+      vertical-align: baseline;
+    }
+
+
+    #kies-onderdelen .left img, #kies-onderdelen .left svg {
+
+        top: 10px;
+      }
+
+    .clickT .g-item{
+      float: none;
+     width: auto;
+    height: 50vh;
+    }
+    .clickT .g-onder{
+      width: auto;
+     float: none;
+  height: auto;
+    }
+    .clickT{
+      height: auto!important;
+    }
+    .logotje1{
+      display: none;
+    }
+    .logotje2{
+      display: none;
+    }
+    .logo1 div{
+      width:50vw;
+    }
+  }

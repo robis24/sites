@@ -1,0 +1,280 @@
+#navbarHeader ul{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#navbarHeader{
+    background-image: linear-gradient(azure,white, #ffff0000);}
+.bg-light {
+    background-color: #f8f9fa00!important;
+}
+.megalogo img{max-width: 4vw;display: block;
+margin-left: auto;
+margin-right: auto;}
+.megalogo hr{border-top: 1vw solid black;margin-bottom:0px;margin-top:0px}
+.megalogo{       font-family: 'sifonn_basic', Arial, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+.navbar-brand{border:none!important;background-color:#00800000!important}
+#nav2 a{border:none!important;background-color:#00800000!important;font-family: 'Raleway', sans-serif;font-size:1em;font-weight: 400;}
+#nav2 ul{
+  list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+#nav2 li{
+float: left;
+}
+.jumbotron a:link,.jumbotron a:visited{color:white}
+a:link, a:visited {
+  font-size: 1.25em;
+      font-family: 'sifonn_basic', Arial, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      margin-bottom: 0.2em;
+      margin-top: 0.2em;
+      border-radius: 0rem;
+      background-color: #ffffff00;
+      color: black;
+      border: 1px solid white;
+      padding: 8px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+}
+
+ a:hover, a:active {
+      background-color: #ffffff4f;
+border: 1px solid darkgray;
+    color: darkgray!important;
+}
+.btn{background-color: rgba(0, 0, 0, 0.2);border-radius: 0;}
+
+@font-face {
+
+  color: #def6;
+font-family: "sifonn_basic";
+src:
+url("http://hoteldewatertoren.nl/wp-content/themes/watertoren/fonts/sifonn_basic-webfont.woff") format("woff")
+}
+.navbar-brand {
+font-family: 'sifonn_basic', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+}
+.niet{pointer-events: none;}
+.rechts .jumbotron{background-color: #cda07e91;color:black;}
+.rechts .jumbotron a:link,.rechts .jumbotron a:visited {color:black!important;border-color:black!important}
+.jumbotron{
+color:white;
+  
+padding: 2rem 1rem;
+margin-bottom: 2rem;
+background-color: rgba(5, 52, 37, 0.6705882352941176);
+ border-radius: 0rem;
+  transition: all, 1s;
+  /*color:white;
+  background-color: black;*/
+  width: 100!important;
+  padding: 100% 0 0!important;
+  background-position: center;
+  background-size: cover;
+overflow: hidden;
+
+  }
+  .wrapi{overflow: hidden;width: 90%;margin-bottom: 2rem;
+    /* padding-top: 100%; */
+    right: 0;
+    left: 14px;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+  border-radius: .3rem;}
+  .image {
+    font-size: 0.9em;
+overflow: hidden!important;
+padding: 2em;
+position: absolute;
+/* top: -30px; */
+left: 0;
+bottom: 0;
+right: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+resize: vertical;
+
+  background-size:cover;
+  width:100%;
+  height:100%;
+  transition: transform 2s;
+}
+.image:hover{transform:scale(1.1)}
+body{
+
+  background-image: url("http://hoteldewatertoren.nl/wp-content/uploads/2018/09/rect14.jpg");
+  font-family: 'Raleway', sans-serif;
+  background-position: bottom;
+  background-size:cover;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+font-size:1.2em
+}
+.in {
+font-size: 0.9em;
+  overflow: hidden!important;
+  padding:2em;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+ flex-direction: column;
+ justify-content: center;
+ resize: vertical;
+ overflow: auto;
+}
+
+.in p{
+  margin: 0;
+padding: 20px;
+
+}
+th {
+  text-align: right;
+}
+@media (max-width: 992px){
+#nav2{display: none}
+
+}
+@media (min-width: 992px){
+.navbar-toggler{display:none}
+
+    .dof:nth-child(1) .jumbotron{
+      padding: 47.5% 0 0!important;
+    }
+
+    .dof:nth-child(1){
+      flex: 0 0 50%!important;
+        max-width: 50%!important;
+    }
+  .dof:nth-child(2) .jumbotron{
+      padding: 47.5% 0 0!important;
+    }
+
+    .dof:nth-child(2){
+      flex: 0 0 50%!important;
+        max-width: 50%!important;
+    }
+.dof:nth-child(7) .jumbotron{
+      padding: 47.5% 0 0!important;
+    }
+
+    .dof:nth-child(7){
+      flex: 0 0 50%!important;
+        max-width: 50%!important;
+    }
+
+
+
+  .dang:nth-child(3n) .jumbotron{
+    padding: 47.5% 0 0!important;
+  }
+
+  .dang:nth-child(3n){
+    flex: 0 0 100%!important;
+      max-width: 100%!important;
+  }
+
+
+
+
+  .ding:nth-child(4n) .jumbotron{
+    padding: 47.5% 0 0!important;
+  }
+
+  .ding:nth-child(4n){
+    flex: 0 0 100%!important;
+      max-width: 100%!important;
+  }
+
+
+.ding:nth-child(1) .jumbotron{
+  padding: 47.5% 0 0!important;
+}
+
+.ding:nth-child(1){
+  flex: 0 0 100%!important;
+    max-width: 100%!important;
+}
+}
+.fa{font-size: 1em}
+h1{margin-top: 0px; border-bottom-style:none;font-family: 'sifonn_basic', Arial, sans-serif;color:black;}
+footer{background-color:#cda07e91;-webkit-box-shadow: -1px -3px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -3px 24px 0px rgba(0,0,0,0.75);
+box-shadow: -1px -3px 24px 0px rgba(0,0,0,0.75);
+}
+footer a{ font-size:0.9em;    white-space: nowrap;
+     border: 1px solid black!important;color:black!important}
+footer .jumbotron{background-color: rgba(0, 0, 0, 0.0);color:black;border:none}
+.oste{background-color: rgba(255, 255, 255, 0)!important;color:black!important;border:0px}
+.oste h1{color:white;}
+.menukaart{    padding: 30px;
+    background-color: white;}
+td, th, table{border:0px}
+
+label {
+    width: 100%;}
+input, textarea, select{display: block;
+    width: 100%;
+
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;}
+
+@page {
+    /* dimensions for the whole page */
+    size: A5;
+    
+    margin: 0;
+}
+
+
+@media print { 
+html {
+    /* off-white, so body edge is visible in browser */
+    background: white;
+}
+
+body {
+    /* A5 dimensions */
+    height: 210mm;
+    width: 148.5mm;
+
+    margin: 0;
+}
+body{background-image:none!important;background-color:white!important;}
+.megalogo{width:80%;margin-top:10mm}
+.menukaart{
+margin-top:-70mm;
+transform:scale(0.6);
+font-size:0.8em!important;
+width:100%!important;
+    }
+ /* All your print styles go here */
+ .navbar, footer, #wpadminbar, .navbar-toggler { display: none !important; } 
+}
