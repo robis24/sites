@@ -1,22 +1,17 @@
 <?php get_header(); ?>
 
-        <div class="menu-list">
-            <ul>
-              <?php wp_nav_menu()  ?>
+<div class="menu-list">
+  <ul>
+    <?php wp_nav_menu()  ?>
 
-            </ul>
-        </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6"  >
+  </ul>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6"  >
       <div class="row">
         <div class="col-lg-6"  >
-            <div class="jumbotron" style="background-image: url(<?php if ( has_post_thumbnail() ) {	the_post_thumbnail_url();}  ?>)">
-
-            </div>
-        </div>
-        <div class="col-lg-6 ">
-          <div class="jumbotron">
+          <div class="jumbotron" style="background-image: url(<?php if ( has_post_thumbnail() ) {	the_post_thumbnail_url();}  ?>)">
 
           </div>
         </div>
@@ -25,43 +20,48 @@
 
           </div>
         </div>
+        <div class="col-lg-6 ">
+          <div class="jumbotron">
 
-    </div>
-  </div>
-        <?php
-        echo "<div class='col-sm-6'  ><div class='row'>";
-        if ( have_posts() ) {
-            while ( have_posts() ) {
-                the_post();
-              //  echo "<li><h1>".get_the_title()."</h1>";
-
-                $args=array(
-                        'orderby' => 'menu_order',
-                        'order' => 'ASC',
-                        'posts_per_page' => 3,
-                        'post_type' => get_post_type( $post->ID ),
-                        'post_parent' => $post->ID
-                );
-
-                $childpages = new WP_Query($args);
-
-                if($childpages->post_count > 0) { /* display the children content  */
-                  //  echo "<div class='col-lg-4 '>";
-                    while ($childpages->have_posts()) {
-                         $childpages->the_post();
-                        ?><div class='col-lg-6 '><div class='jumbotron' style='background-image: url(<?php the_post_thumbnail_url() ?>)'> <?php echo "<div class='in'><h2>".get_the_title()."</h2></div></div></div>";
-                    }
-                  //  echo "</div>";
-                }
-                wp_reset_query();
-
-              //  echo "";
-            }
-        }
-
-?>
+          </div>
+        </div>
 
       </div>
-</div>
     </div>
+    <?php
+    echo "<div class='col-sm-6'  ><div class='row'>";
+    if ( have_posts() ) {
+      while ( have_posts() ) {
+        the_post();
+        //  echo "<li><h1>".get_the_title()."</h1>";
+
+        $args=array(
+          'orderby' => 'menu_order',
+          'order' => 'ASC',
+          'posts_per_page' => 3,
+          'post_type' => get_post_type( $post->ID ),
+          'post_parent' => $post->ID
+        );
+
+        $childpages = new WP_Query($args);
+
+        if($childpages->post_count > 0) { /* display the children content  */
+          //  echo "<div class='col-lg-4 '>";
+          while ($childpages->have_posts()) {
+            $childpages->the_post();
+            ?><div class='col-lg-6 '><div class='jumbotron' style='background-image: url(<?php the_post_thumbnail_url() ?>)'> <?php echo "<div class='in'><h2>".get_the_title()."</h2></div></div></div>";
+          }
+          //  echo "</div>";
+        }
+        wp_reset_query();
+
+        //  echo "";
+      }
+    }
+
+    ?>
+
+  </div>
+</div>
+</div>
 <?php get_footer(); ?>
